@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Sagi's Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
+            text-align: left; /* Left align for the body */
         }
         header {
             background: #333;
             color: white;
             padding: 20px;
             font-size: 24px;
+            text-align: center; /* Keeping header centered */
         }
         nav {
             background: #444;
@@ -29,16 +30,28 @@
         }
         section {
             padding: 50px;
+            text-align: left; 
         }
         .contact {
-            background: #f4f4f4;
-            padding: 20px;
+            background: #222; 
+            color: white; 
+            padding: 40px;
+            text-align: center; 
+        }
+        .contact a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 10px;
+        }
+        .contact a:hover {
+            text-decoration: underline; 
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Hey, I'm Sagi Rosner</h1>
+        <h1>Sagi's Website</h1>
         <p>Welcome to my personal website!</p>
     </header>
     <nav>
@@ -49,7 +62,9 @@
     
     <section id="about">
         <h2>About Me</h2>
-        <p>Write a short introduction about yourself here.</p>
+        <p>Hey everyone, I'm Sagi, and I enjoy exploring complex ideas and learning about how the world works, from physics & math to history & geopolitics. I am most passionate about technology & science. With a background in physics, mathematics, and programming, along with leadership experience as a military officer and educator.</p>
+        <p>Currently pursuing CCNA certification and specializing in network security and cloud computing, I am eager to apply my expertise to real-world IT challenges and contribute to innovation in the cybersecurity and networking fields.</p>
+        <p>When I’m not diving into new knowledge, you’ll find me traveling, running D&D campaigns, or enjoying a good game of chess.</p>
     </section>
     
     <section id="portfolio">
@@ -59,8 +74,9 @@
     
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
-        <p>Email: your.email@example.com</p>
-        <p>Social Media: Add links to your social profiles</p>
+        <p>Email: <a href="mailto:rosner.sagi@gmail.com">✉️ rosner.sagi@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sagi-rosner/" target="_blank">💼 linkedin.com/in/sagirosner</a></p>
+        <p>GitHub: <a href="https://github.com/Rush2405" target="_blank">💻 github.com/SagiRosner</a></p>
     </section>
 </body>
 </html>
